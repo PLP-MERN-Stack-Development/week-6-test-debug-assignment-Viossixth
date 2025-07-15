@@ -1,4 +1,4 @@
-const isValidBug = require('utils/ValidateBug');
+const isValidBug = require('../utils/ValidateBug');
 
 describe('Bug Validator', () => {
   it('returns true for valid bug', () => {
